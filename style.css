@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-left-side{
+    display: flex;
+}
+.nav-left-side h1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.travel{
+    color: #FF5400;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+}
+.home{
+    color: #FF5400;
+}
+.list{
+    color: #131318;
+}
+.menu li a {
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+.banner-section{
+    margin-left: 137px;
+    margin-top: 40px;
+}
+.banner-section img{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    /* opacity: 0.8; */
+    position: absolute;
+    z-index: -1;
+    
+}
+.banner-section-text{
+    text-align: center;
+    margin-right: 70px;
+    color: #ffffff;
+    
+}
+.banner-section-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 80px;
+}
+.banner-section-text p {
+    width: 70%;
+    padding-left: 140px;
+    font-size: 16px;
+}
+.input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 70%;
+    margin-left: 160px;
+    padding-bottom: 30px;
+    /* margin-top: 50px; */
+}
+.input > input {
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+    border-radius:8px ;
+    border: none;
+}
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    padding-left: 10px;
+    border-radius:8px ;
+    border: none;
+    background-color: #FF5400;
+    color: #ffffff;
+    
+}
+
+.popular-tours{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 230px;
+    width: 79%;
+    margin-left: 150px;
+
+}
+.popular-tours-right-side{
+    border-radius: 16px;
+    
+}
+.popular-tours-right-side img{
+    width: 460px;
+    height: 450px;
+}
+
+.popular-tours-left-side{
+    margin-right: 20px;
+    
+}
+.popular-tours-left-side h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.popular-tours-left-side p, ul>li{
+    color:  rgba(19, 19, 24, 0.70);
+    
+}
+.popular-tours-left-side ul > li{
+    margin-left:18px ;
+}
+.choose-section{
+    margin-top: 90px;
+}
+.choose-section h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-section p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.row{
+    display: flex;
+    margin-left: 110px;
+    margin-bottom: 0;
+    
+}
+.row > div {
+    margin-right: 20px;
+}
+
+.bangladesh img{
+    position: absolute;
+    z-index: -1;
+}
+.bangladesh {
+    background-image: url(images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 200px;
+}
+.bangladesh h4{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.Bandarban {
+    background-image: url(images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 100vh;
+    margin-right: 600px;
+}
+.choose-us{
+    margin-top: 80px;
+}
+.choose-us h1, p{
+    text-align: center;
+}
+.choose-us h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.choose-us p{
+    color:  rgba(19, 19, 24, 0.70);;
+}
+#box{
+    width: 500px;
+    padding: 25px;
+}
+.box1{
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 8px;
+}
+.box2{
+    background-color: rgba(41, 206, 246, 0.05);
+    border-radius: 8px;
+}
+.box3{
+    background-color: rgba(233, 68, 68, 0.05);
+    border-radius: 8px;
+}
+@media screen and (max-width:600px) {
+    .nav-right-side{
+        display: none;
+    }
+}
