@@ -150,28 +150,36 @@ nav{
 .row > div {
     margin-right: 20px;
 }
-
-.bangladesh img{
-    position: absolute;
-    z-index: -1;
+#country-name{
+    color: #ffffff;
+    position: relative;
+    bottom: 200px;
 }
 .bangladesh {
-    background-image: url(images/Rectangle\ 11.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    margin-bottom: 200px;
+    /* position: relative; */
+    left: 180px;
+    
 }
-.bangladesh h4{
-    padding-left: 200px;
-    padding-top: 100px;
+.Barbanand{
+    left: 280px;
+    width: 20%;
 }
-.Bandarban {
-    background-image: url(images/Rectangle\ 10.png);
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 100vh;
-    margin-right: 600px;
+.Srilanka{
+    left: 150px;
+}
+.North-America{
+    left: 180px;
+}
+.Kashmir{
+    left: 86px;
+    width: 20%;
+}
+.Maldives{
+    left: 240px;
+}
+.Indonesia{
+    left: 240px;
+    width: 20%;
 }
 .choose-us{
     margin-top: 80px;
@@ -303,7 +311,7 @@ font-weight: 400;
 /* footer section design  */
 footer{
     background: rgba(19, 19, 24, 0.05);
-    width: 1440px;
+    
 height: 502px;
 
 }
