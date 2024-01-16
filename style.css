@@ -187,6 +187,11 @@ nav{
 .choose-us p{
     color:  rgba(19, 19, 24, 0.70);;
 }
+.upper-box{
+    margin-left: 100px;
+    display: flex;
+    
+}
 #box{
     width: 500px;
     padding: 25px;
@@ -194,14 +199,40 @@ nav{
 .box1{
     background-color: rgba(251, 181, 99, 0.05);
     border-radius: 8px;
+    margin-right: 50px;
+}
+.box1 h1{
+    color: #131318;
+    font-size: 24px;
+}
+.box1 p {
+    color:#5A5A5D ;
+    text-align:left;
 }
 .box2{
     background-color: rgba(41, 206, 246, 0.05);
     border-radius: 8px;
 }
+.box2 h1{
+    color: #131318;
+    font-size: 24px;
+}
+.box2 p {
+    color:#5A5A5D ;
+    text-align:left;
+}
 .box3{
     background-color: rgba(233, 68, 68, 0.05);
     border-radius: 8px;
+    margin-left: 430px;
+}
+.box3 h1{
+    color: #131318;
+    font-size: 24px;
+}
+.box3 p {
+    color:#5A5A5D ;
+    text-align:left;
 }
 @media screen and (max-width:600px) {
     .nav-right-side{
