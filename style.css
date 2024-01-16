@@ -238,7 +238,7 @@ nav{
 .newslette-section{
     display: flex;
     margin-left: 120px;
-    margin-bottom: 80px;
+    
 }
 .newslette-section-left-side{
     border-radius: 16px;
@@ -298,6 +298,39 @@ transform: rotate(-19.628deg);
     padding-top: 10px;
     font-size: 24px;
 font-weight: 400;
+}
+
+/* footer section design  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+height: 502px;
+
+}
+.footer-name{
+    display: flex;
+    padding: 100px 0 0 530px;
+}
+.footer-name img{
+    margin-right: 20px;
+}
+footer p{
+    text-align: center;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.social{
+    margin-left:620px ;
+    margin-top: 30px;
+}
+.hr {
+    width: 70%;
+    margin-left: 160px;
+    margin-top: 40px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 40px;
 }
 @media screen and (max-width:600px) {
     .nav-right-side{
