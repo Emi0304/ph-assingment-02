@@ -4,6 +4,8 @@
     font-family: 'Mulish', sans-serif;
     margin-top: 20px;
 }
+
+/* nav section design  */
 nav{
     display: flex;
     justify-content: space-around;
@@ -37,6 +39,8 @@ nav{
     margin-right: 15px;
     
 }
+
+/* banner section design  */
 .banner-section{
     margin-left: 137px;
     margin-top: 40px;
@@ -92,6 +96,8 @@ nav{
     
 }
 
+
+/* popular tours section */
 .popular-tours{
     display: flex;
     margin-bottom: 40px;
@@ -125,6 +131,8 @@ nav{
 .popular-tours-left-side ul > li{
     margin-left:18px ;
 }
+
+/* choose destination section design  */
 .choose-section{
     margin-top: 90px;
 }
@@ -343,5 +351,208 @@ footer p{
 @media screen and (max-width:600px) {
     .nav-right-side{
         display: none;
+        
     }
+    nav{
+        justify-content: space-between;
+        margin-left:50px ;
+    }
+    .nav-left-side img{
+        width: 28.724px;
+height: 33.516px;
+    }
+    .nav-left-side h1{
+        font-size: 19px;
+    }
+    .banner-section{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .banner-section img{
+        width: 470px;
+height: 483px;
+        
+    }
+    .banner-section-text h1{
+        font-size: 20px;
+        padding-top: 13px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .banner-section-text p {
+        width: 78%;
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    .input{
+        flex-direction: column;
+        width: 76%;
+        margin-left: 40px;
+        
+    }
+    .input > input {
+        width: 254px;
+        height: 40px;
+    }
+    #btn1{
+        width: 258px;
+        height: 40px; 
+    }
+    .popular-tours{
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 80px;
+        width: 80%;
+        margin-left: 50px;
+    }
+    
+    .popular-tours-right-side{
+        border-radius: 16px;
+        
+    }
+    .popular-tours-right-side img{
+        width: 470px;
+        height: 400px;
+    }
+    
+    
+    .popular-tours-left-side h1{
+        font-size: 20px;
+        
+    }
+    .popular-tours-left-side p, ul>li{
+        font-size: 12px;
+        
+    }
+    .popular-tours-left-side ul > li{
+        margin-left:18px ;
+    }
+    #btn2{
+        width: 144px;
+height: 45px
+    }
+    .choose-section{
+        margin-top: 50px;
+    }
+    
+.choose-section h1{
+    font-size: 20px;
+}
+.choose-section p{
+    font-size: 12px;
+    width: 70%; 
+    margin-left: 60px;
+}
+.row{
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+#country-name{
+    
+    bottom: 260px;
+}
+.bangladesh {
+    left: 190px;
+    width: 20%;
+    
+}
+.Barbanand{
+    left: 190px;
+    width: 20%;
+}
+.Srilanka{
+    left: 190px;
+    width: 20%;
+}
+.North-America{
+    left: 184px;
+    width: 30%;
+}
+.Kashmir{
+    left: 190px;
+    width: 20%;
+}
+.Maldives{
+    left: 190px;
+    width: 20%;
+}
+.Indonesia{
+    left: 190px;
+    width: 20%;
+}
+.row >div > img{
+    width: 470px;
+        height: 400px;
+}
+.choose-us{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.choose-us h1{
+    font-size: 20px;
+    
+}
+.choose-us p{
+    font-size: 12px;
+    width: 70%; 
+    margin-left: 60px;
+}
+.upper-box{
+    flex-direction: column;
+    
+}
+#box{
+    width: 400px;
+    padding: 20px;
+}
+.box1{
+    margin-right: 0;
+}
+.box3{
+    margin-left: 100px;
+}
+.newslette-section{
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+
+.newslette-section-right-side img{
+    width: 510px;
+height: 340px;
+margin-left: 0;
+
+}
+.discount{
+    width: 224px;
+    height: 100px;
+   bottom: 155px;
+   left: 280px;
+
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    
+height: 502px;
+
+}
+.footer-name{
+    padding: 100px 0 0 130px;
+}
+.footer p{
+    font-size: 12px;
+
+}
+.social{
+    margin-left:220px ;
+    margin-top: 20px;
+}
+.hr {
+    width: 60%;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+}
 }
